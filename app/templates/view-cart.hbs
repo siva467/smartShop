@@ -1,0 +1,9 @@
+{{page-title "ViewCart"}}
+<div class="nav">
+  <LinkTo @route=products class="viewCart">Home</LinkTo>
+</div>
+<ViewcartPage @buydata={{this.model}}>
+</ViewcartPage>
+
+
+{{outlet}}
